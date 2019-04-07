@@ -1,0 +1,319 @@
+body {
+  box-sizing: border-box;
+  font-family: Circular, "ヒラギノ角ゴ Pro",  "Hiragino Kaku Gothic Pro",
+  メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "MS Gothic",
+  "ＭＳ ゴシック","Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #777777;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  padding-right: 15px;
+  color: #767676;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.titletxt {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.mtitle {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.txtm {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.txtxs {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.contentstxt {
+  font-size: 16px;
+  font-weight: 400;
+  color: #767676;
+}
+
+/* header */
+
+.header {
+  background: #fff;
+  height: 81px;
+}
+
+.header-in {
+  height: 100%;
+  width: 100%;
+  padding: 10px 26px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  padding: 6px 0;
+  display: flex;
+}
+
+.header-icon {
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  margin-top: 8px;
+  background: center/cover url(../img/logo.png);
+}
+
+.under-arrow {
+  display: none;
+  margin-left: 10px;
+}
+
+.fa-angle-down {
+  margin-top: 18px;
+  color: #787878;
+}
+
+.header-search {
+  height: 100%;
+  width: 460px;
+  padding: 10px 18px;
+  border-radius: 5px;
+  border: 1px solid #ECECEC;
+  box-shadow: 0 0 5px 0 #ECECEC;
+  margin-left: 25px;
+  display: flex;
+}
+
+.header-search:hover {
+  box-shadow: 0 0 5px 0 rgb(209, 209, 209);
+  transition: .5s;
+}
+
+.search-input {
+  width: 100%;
+  margin-left: 15px;
+  border: none;
+  font-weight: 800;
+
+}
+
+.fa-search {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.header-right {
+  display: flex;
+}
+
+.listtxt {
+  margin-bottom: 0;
+  height: 100%;
+  padding: 20px 30px 0 0;
+  font-size: 14px;
+  color: #484848;
+  font-weight: 600;
+}
+
+.header-list a:hover {
+  text-decoration: none;
+}
+
+.listtxt4 {
+  padding-right: 0;
+}
+
+/* main */
+
+.main {
+  background: center/cover url(../img/main.jpg);
+  padding: 215px 16% 190px;
+  color: #fff;
+}
+
+.main h1 {
+  font-size: 46px;
+  font-weight: 800;
+
+}
+
+.main p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.main h1, .main p {
+  margin-bottom: 25px;
+}
+
+.main h2 {
+  font-size: 16px;
+  font-weight: 800;
+  color: #484848;
+  background: #fff;
+  padding: 18px 30px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+/* perfect-gift */
+
+.perfect-gift {
+  padding: 40px 0;
+  background: #fff;
+  text-align: center;
+}
+
+.perfect-gift h1 {
+  margin-bottom: 40px;
+}
+
+.gift-img i {
+  font-size: 50px;
+  color: #1E8A95;
+}
+
+.gift-img {
+  margin-bottom: 25px;
+}
+
+/* if-gift */
+
+.if-gift {
+  background: #1E8A95;
+  color: #fff;
+  text-align: center;
+  padding: 40px 15px;
+}
+
+.gift-icon {
+  margin-bottom: 20px;
+}
+
+.if-gift h2 {
+  background: rgb(255, 101, 106);
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
+  padding: 13px 30px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.if-gift h2:hover {
+  background: rgb(253, 125, 130);
+}
+
+.if-gift > .txtm {
+  margin-bottom: 40px;
+}
+
+.if-gift > a > .txtxs {
+  opacity: .6;
+  color: #fff;
+}
+
+.if-gift > a {
+  text-decoration: none;
+}
+
+.if-gift > a > .txtxs:hover {
+  opacity: 1;
+}
+
+/* footer */
+
+.footer {
+  padding: 40px 0 30px;
+  background: #fff;
+}
+
+.footer .underline {
+  border-bottom: 1px solid #EBEBEB;
+}
+
+.fa-facebook-f, .fa-twitter {
+  margin-right: 20px;
+}
+
+.footer-list {
+  font-size: 14px;
+  font-weight: 800;
+  color: #484848;
+}
+
+ul a {
+  color: #767676;
+}
+
+ul a:hover {
+  color: #767676;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-left {
+  padding-top: 20px;
+  display: flex;
+  float: left;
+}
+
+.bottom-right {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  margin-right:10px;
+  margin-left:10px;
+  background: center/cover url(../img/logo.png);
+}
+
+.footer-bottom .txtxs {
+  color: #767676;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.bottom-right {
+  float: right;
+}
+
+.jpy {
+  color: #767676;
+  text-decoration: none;
+}
+
+.jpy:hover {
+  text-decoration: none;
+}
+
+.japanese {
+  border: 1px solid #EBEBEB;
+  margin-right: 20px;
+  padding: 5px 10px;
+  width: 77.35px;
+}
+
+.japanese:hover {
+  background: #F2F2F2;
+  color: #767676;
+}
